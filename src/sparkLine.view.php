@@ -11,9 +11,9 @@
                 }
 ?>
         </linearGradient>
-        <mask id="sparkline-<?= $id ?>" x="0" y="0" width="<?= $width ?>" height="<?= $height - 2 ?>">
+        <mask id="sparkline-<?= $id ?>" x="0" y="0" width="<?= $width ?>" height="<?= $height ?>">
             <polyline
-                transform="translate(0, <?= $height - 2 ?>) scale(1,-1)"
+                transform="translate(0, <?= $height ?>) scale(1,-1)"
                 points="<?= $coordinates ?>"
                 fill="transparent"
                 stroke="<?= $colors[0] ?>"

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Brendt\SparkLine;
+namespace Esplora\SparkLine;
 
 use DateTimeInterface;
 

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Brendt\SparkLine\Tests;
+namespace Esplora\SparkLine\Tests;
 
-use Brendt\SparkLine\SparkLine;
-use Brendt\SparkLine\SparkLineDay;
+use Esplora\SparkLine\SparkLine;
+use Esplora\SparkLine\SparkLineDay;
 use DateTimeImmutable;
 use Illuminate\Support\Collection;
 use PHPUnit\Framework\TestCase;

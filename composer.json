@@ -1,11 +1,11 @@
 {
-    "name": "brendt/php-sparkline",
+    "name": "esplora/php-sparkline",
     "description": "Generate sparkline SVGs in PHP",
     "keywords": [
-        "brendt",
+        "esplora",
         "php-sparkline"
     ],
-    "homepage": "https://github.com/brendt/php-sparkline",
+    "homepage": "https://github.com/esplora/php-sparkline",
     "license": "MIT",
     "authors": [
         {
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Brendt\\SparkLine\\": "src"
+            "Esplora\\SparkLine\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Brendt\\SparkLine\\Tests\\": "tests"
+            "Esplora\\SparkLine\\Tests\\": "tests"
         }
     },
     "scripts": {

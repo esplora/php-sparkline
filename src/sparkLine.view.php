@@ -1,4 +1,4 @@
-<svg width="<?= $width ?>" height="<?= $height ?>">
+<svg preserveAspectRatio="none" viewBox="0 0 <?= $width - 5 ?> <?= $height ?>">
     <defs>
         <linearGradient id="gradient-<?= $id ?>" x1="0" x2="0" y1="1" y2="0">
             <?php
